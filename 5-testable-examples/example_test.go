@@ -6,7 +6,7 @@ import (
 
 func ExampleReverse() {
 	fmt.Println(Reverse("hello"))
-	// Output:olleh
+	// Output:hello
 }
 
 func ExampleUser_Hi() {

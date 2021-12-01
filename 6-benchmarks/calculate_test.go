@@ -1,6 +1,8 @@
 package benchmarks
 
-import "testing"
+import (
+	"testing"
+)
 
 func BenchmarkCalculate(b *testing.B) {
 	for i := 0; i < b.N; i++ {

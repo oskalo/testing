@@ -8,6 +8,6 @@ mockery -dir {path were interface exists} -name {name of the interface} -output 
 * ***example***
    
 ```bash
-workshop-testing % mockery --dir 3-mocks/repository --name CommentsRepository --output 3-mocks/mocks --case underscore
+mockery --dir 3-mocks/repository --name CommentsRepository --output 3-mocks/mocks --case underscore
 ```
 * [mock](https://github.com/vektra/mockery#installation)

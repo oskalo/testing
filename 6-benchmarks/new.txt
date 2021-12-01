@@ -1,0 +1,7 @@
+goos: darwin
+goarch: amd64
+pkg: testing/6-benchmarks
+cpu: Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+BenchmarkCalculate-8   	1000000000	         0.3505 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	testing/6-benchmarks	0.654s
